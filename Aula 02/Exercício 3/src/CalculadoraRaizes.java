@@ -12,7 +12,7 @@ public class CalculadoraRaizes implements Runnable{
 	
 	private void raizQuadrada() {
 		results.clear();
-		for ( int i = 1 ; i < 1000 ; i++) {
+		for ( int i = 1 ; i < 100 ; i++) {
 			if (i % 2 != 0) {
 				results.add(Math.sqrt(i));
 			}
